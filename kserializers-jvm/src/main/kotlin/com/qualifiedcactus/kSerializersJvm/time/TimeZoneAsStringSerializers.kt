@@ -29,6 +29,9 @@ import java.time.ZoneId
 import java.time.ZoneOffset
 import java.time.zone.ZoneRulesException
 
+/**
+ * Serialize [ZoneId] to  zone ID in [String].
+ */
 object ZoneIdSerializer : KSerializer<ZoneId> {
     override val descriptor: SerialDescriptor =
         PrimitiveSerialDescriptor(this::class.qualifiedName!!, PrimitiveKind.STRING)
@@ -51,6 +54,9 @@ object ZoneIdSerializer : KSerializer<ZoneId> {
 
 typealias ZoneIdAsString = @Serializable(ZoneIdSerializer::class) ZoneId
 
+/**
+ * Serialize [ZoneOffset] to  offset ID in [String].
+ */
 object ZoneOffsetSerializer : KSerializer<ZoneOffset> {
     override val descriptor: SerialDescriptor =
         PrimitiveSerialDescriptor(this::class.qualifiedName!!, PrimitiveKind.STRING)
