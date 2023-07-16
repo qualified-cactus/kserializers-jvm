@@ -7,24 +7,24 @@ This module contains implementations of `KSerializer` for classes in `java.time`
 This module also contains the following `typealias` 
 that use `@Serializable` annotation with those implementations of `KSerializer` :
 
-- `typealias` for classes in `java.time`:
-    - `InstantAsString`
-    - `LocalDateAsString`
-    - `LocalDateTimeAsString`
-    - `LocalTimeAsString`
-    - `MonthDayAsString`
-    - `OffsetDateTimeAsString`
-    - `OffsetTimeAsString`
-    - `YearAsString`
-    - `YearMonthAsString`
-    - `ZonedDateTimeAsString`
-    - `InstantAsUnixTime`
-    - `ZoneOffsetAsString`
-    - `ZoneIdAsString`
-    - `DurationAsString`
-    - `PeriodAsString`
-- `typealias` for classes in `java.util`
-    - `UuidAsString`
+- `InstantAsString`
+- `LocalDateAsString`
+- `LocalDateTimeAsString`
+- `LocalTimeAsString`
+- `MonthDayAsString`
+- `OffsetDateTimeAsString`
+- `OffsetTimeAsString`
+- `YearAsString`
+- `YearMonthAsString`
+- `ZonedDateTimeAsString`
+- `InstantAsUnixTime`
+- `ZoneOffsetAsString`
+- `ZoneIdAsString`
+- `DurationAsString`
+- `PeriodAsString`
+- `UuidAsString`
+
+For non-kotlin users, consider using `SerializerModuleExtensions.addSerializersForJvm`, or other manual methods.
 
 
 # Package com.qualifiedcactus.kSerializersJvm.time
