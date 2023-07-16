@@ -1,0 +1,49 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time////PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/AbstractTemporalSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-abstract-temporal-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/AbstractTemporalSerializer/AbstractTemporalSerializer/#java.time.format.DateTimeFormatter#java.time.temporal.TemporalQuery[TypeParam(bounds=[java.time.temporal.TemporalAccessor])]/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-abstract-temporal-serializer/-abstract-temporal-serializer.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/AbstractTemporalSerializer/descriptor/#/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-abstract-temporal-serializer/descriptor.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/AbstractTemporalSerializer/deserialize/#kotlinx.serialization.encoding.Decoder/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-abstract-temporal-serializer/deserialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/AbstractTemporalSerializer/serialize/#kotlinx.serialization.encoding.Encoder#TypeParam(bounds=[java.time.temporal.TemporalAccessor])/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-abstract-temporal-serializer/serialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/DurationSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-duration-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/DurationSerializer/descriptor/#/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-duration-serializer/descriptor.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/DurationSerializer/deserialize/#kotlinx.serialization.encoding.Decoder/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-duration-serializer/deserialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/DurationSerializer/serialize/#kotlinx.serialization.encoding.Encoder#java.time.Duration/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-duration-serializer/serialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/InstantAsUnixTimeSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-instant-as-unix-time-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/InstantAsUnixTimeSerializer/descriptor/#/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-instant-as-unix-time-serializer/descriptor.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/InstantAsUnixTimeSerializer/deserialize/#kotlinx.serialization.encoding.Decoder/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-instant-as-unix-time-serializer/deserialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/InstantAsUnixTimeSerializer/serialize/#kotlinx.serialization.encoding.Encoder#java.time.Instant/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-instant-as-unix-time-serializer/serialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/InstantSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-instant-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/LocalDateSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-local-date-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/LocalDateTimeSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-local-date-time-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/LocalTimeSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-local-time-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/MonthDaySerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-month-day-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/OffsetDateTimeSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-offset-date-time-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/OffsetTimeSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-offset-time-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/PeriodSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-period-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/PeriodSerializer/descriptor/#/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-period-serializer/descriptor.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/PeriodSerializer/deserialize/#kotlinx.serialization.encoding.Decoder/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-period-serializer/deserialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/PeriodSerializer/serialize/#kotlinx.serialization.encoding.Encoder#java.time.Period/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-period-serializer/serialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/YearMonthSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-year-month-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/YearSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-year-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/ZoneIdSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-zone-id-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/ZoneIdSerializer/descriptor/#/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-zone-id-serializer/descriptor.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/ZoneIdSerializer/deserialize/#kotlinx.serialization.encoding.Decoder/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-zone-id-serializer/deserialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/ZoneIdSerializer/serialize/#kotlinx.serialization.encoding.Encoder#java.time.ZoneId/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-zone-id-serializer/serialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/ZoneOffsetSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-zone-offset-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/ZoneOffsetSerializer/descriptor/#/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-zone-offset-serializer/descriptor.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/ZoneOffsetSerializer/deserialize/#kotlinx.serialization.encoding.Decoder/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-zone-offset-serializer/deserialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/ZoneOffsetSerializer/serialize/#kotlinx.serialization.encoding.Encoder#java.time.ZoneOffset/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-zone-offset-serializer/serialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.time/ZonedDateTimeSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.time/-zoned-date-time-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.util////PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.util/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.util/UuidSerializer///PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.util/-uuid-serializer/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.util/UuidSerializer/descriptor/#/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.util/-uuid-serializer/descriptor.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.util/UuidSerializer/deserialize/#kotlinx.serialization.encoding.Decoder/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.util/-uuid-serializer/deserialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm.util/UuidSerializer/serialize/#kotlinx.serialization.encoding.Encoder#java.util.UUID/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm.util/-uuid-serializer/serialize.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm////PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm/index.html
+$dokka.location:com.qualifiedcactus.kSerializersJvm//addSerializersForJvm/kotlinx.serialization.modules.SerializersModuleBuilder#/PointingToDeclaration/kserializers-jvm/com.qualifiedcactus.kSerializersJvm/add-serializers-for-jvm.html
+com.qualifiedcactus.kSerializersJvm
+com.qualifiedcactus.kSerializersJvm.time
+com.qualifiedcactus.kSerializersJvm.util
+

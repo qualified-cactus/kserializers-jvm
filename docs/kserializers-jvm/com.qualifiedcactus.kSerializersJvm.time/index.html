@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>com.qualifiedcactus.kSerializersJvm.time</title>
+    <link href="../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../index.html">
+                    <span>kserializers-jvm</span>
+            </a>
+    </div>
+    <div>
+0.0.1    </div>
+    <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":kserializers-jvm:dokkaHtml/main">jvm</button>
+        </div>
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" data-page-type="package" id="content" pageIds="kserializers-jvm::com.qualifiedcactus.kSerializersJvm.time////PointingToDeclaration//1259467601">
+  <div class="breadcrumbs"><a href="../../index.html">kserializers-jvm</a><span class="delimiter">/</span><span class="current">com.qualifiedcactus.kSerializersJvm.time</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
+    <div class="platform-hinted UnderCoverText" data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><p class="paragraph">This packages contains <code class="lang-kotlin">KSerializer</code> for classes in <code class="lang-kotlin">java.time</code>.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="TYPE">Types</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="753115726%2FClasslikes%2F1259467601" anchor-label="AbstractTemporalSerializer" id="753115726%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-abstract-temporal-serializer/index.html"><span>Abstract</span><wbr></wbr><span>Temporal</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="753115726%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">class </span><a href="-abstract-temporal-serializer/index.html">AbstractTemporalSerializer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-abstract-temporal-serializer/index.html">T</a><span class="token operator"> : </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/temporal/TemporalAccessor.html">TemporalAccessor</a><span class="token operator">&gt;</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">formatter<span class="token operator">: </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html">DateTimeFormatter</a><span class="token punctuation">, </span></span><span class="parameter ">temporalQuery<span class="token operator">: </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/temporal/TemporalQuery.html">TemporalQuery</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-abstract-temporal-serializer/index.html">T</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span> : <span data-unresolved-link="kotlinx.serialization/KSerializer///PointingToDeclaration/">KSerializer</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-abstract-temporal-serializer/index.html">T</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">An abstract class for serializing <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/temporal/Temporal.html">Temporal</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-649199955%2FClasslikes%2F1259467601" anchor-label="DurationAsString" id="-649199955%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-649199955%2FClasslikes%2F1259467601"><span>Duration</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-649199955%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#-649199955%2FClasslikes%2F1259467601">DurationAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-duration-serializer/index.html">DurationSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html">Duration</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-186973410%2FClasslikes%2F1259467601" anchor-label="DurationSerializer" id="-186973410%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-duration-serializer/index.html"><span>Duration</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-186973410%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-duration-serializer/index.html">DurationSerializer</a> : <span data-unresolved-link="kotlinx.serialization/KSerializer///PointingToDeclaration/">KSerializer</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html">Duration</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">This is a serializer for <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html">java.time.Duration</a>, not Kotlin <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.time/-duration/index.html">kotlin.time.Duration</a> (which already has a built-in serializer). Serialize <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html">Duration</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> using ISO-8601 format.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1708580666%2FClasslikes%2F1259467601" anchor-label="InstantAsString" id="1708580666%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1708580666%2FClasslikes%2F1259467601"><span>Instant</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1708580666%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#1708580666%2FClasslikes%2F1259467601">InstantAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-instant-serializer/index.html">InstantSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Instant.html">Instant</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="119309526%2FClasslikes%2F1259467601" anchor-label="InstantAsUnixTime" id="119309526%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#119309526%2FClasslikes%2F1259467601"><span>Instant</span><wbr></wbr><span>As</span><wbr></wbr><span>Unix</span><wbr></wbr><span><span>Time</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="119309526%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#119309526%2FClasslikes%2F1259467601">InstantAsUnixTime</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-instant-as-unix-time-serializer/index.html">InstantAsUnixTimeSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Instant.html">Instant</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1979569444%2FClasslikes%2F1259467601" anchor-label="InstantAsUnixTimeSerializer" id="1979569444%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-instant-as-unix-time-serializer/index.html"><span>Instant</span><wbr></wbr><span>As</span><wbr></wbr><span>Unix</span><wbr></wbr><span>Time</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1979569444%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-instant-as-unix-time-serializer/index.html">InstantAsUnixTimeSerializer</a> : <span data-unresolved-link="kotlinx.serialization/KSerializer///PointingToDeclaration/">KSerializer</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Instant.html">Instant</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Serialize <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Instant.html">Instant</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a> (Unix time). Data about milliseconds of this <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Instant.html">Instant</a> is ignored.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2102528917%2FClasslikes%2F1259467601" anchor-label="InstantSerializer" id="-2102528917%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-instant-serializer/index.html"><span>Instant</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2102528917%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-instant-serializer/index.html">InstantSerializer</a> : <a href="-abstract-temporal-serializer/index.html">AbstractTemporalSerializer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Instant.html">Instant</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Serialize <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Instant.html">Instant</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> using the formatter <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html#ISO_INSTANT()">DateTimeFormatter.ISO_INSTANT</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-528325854%2FClasslikes%2F1259467601" anchor-label="LocalDateAsString" id="-528325854%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-528325854%2FClasslikes%2F1259467601"><span>Local</span><wbr></wbr><span>Date</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-528325854%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#-528325854%2FClasslikes%2F1259467601">LocalDateAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-local-date-serializer/index.html">LocalDateSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/LocalDate.html">LocalDate</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="8920659%2FClasslikes%2F1259467601" anchor-label="LocalDateSerializer" id="8920659%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-local-date-serializer/index.html"><span>Local</span><wbr></wbr><span>Date</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="8920659%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-local-date-serializer/index.html">LocalDateSerializer</a> : <a href="-abstract-temporal-serializer/index.html">AbstractTemporalSerializer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/LocalDate.html">LocalDate</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Serialize <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/LocalDate.html">LocalDate</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> using the formatter <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE()">DateTimeFormatter.ISO_LOCAL_DATE</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-311917611%2FClasslikes%2F1259467601" anchor-label="LocalDateTimeAsString" id="-311917611%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-311917611%2FClasslikes%2F1259467601"><span>Local</span><wbr></wbr><span>Date</span><wbr></wbr><span>Time</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-311917611%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#-311917611%2FClasslikes%2F1259467601">LocalDateTimeAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-local-date-time-serializer/index.html">LocalDateTimeSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/LocalDateTime.html">LocalDateTime</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1818811974%2FClasslikes%2F1259467601" anchor-label="LocalDateTimeSerializer" id="1818811974%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-local-date-time-serializer/index.html"><span>Local</span><wbr></wbr><span>Date</span><wbr></wbr><span>Time</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1818811974%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-local-date-time-serializer/index.html">LocalDateTimeSerializer</a> : <a href="-abstract-temporal-serializer/index.html">AbstractTemporalSerializer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/LocalDateTime.html">LocalDateTime</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Serialize <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/LocalDateTime.html">LocalDateTime</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> using the formatter <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME()">DateTimeFormatter.ISO_LOCAL_DATE_TIME</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-317972509%2FClasslikes%2F1259467601" anchor-label="LocalTimeAsString" id="-317972509%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-317972509%2FClasslikes%2F1259467601"><span>Local</span><wbr></wbr><span>Time</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-317972509%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#-317972509%2FClasslikes%2F1259467601">LocalTimeAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-local-time-serializer/index.html">LocalTimeSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/LocalTime.html">LocalTime</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="295022292%2FClasslikes%2F1259467601" anchor-label="LocalTimeSerializer" id="295022292%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-local-time-serializer/index.html"><span>Local</span><wbr></wbr><span>Time</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="295022292%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-local-time-serializer/index.html">LocalTimeSerializer</a> : <a href="-abstract-temporal-serializer/index.html">AbstractTemporalSerializer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/LocalTime.html">LocalTime</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Serialize <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/LocalTime.html">LocalTime</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> using the formatter <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html#ISO_LOCAL_TIME()">DateTimeFormatter.ISO_LOCAL_TIME</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="484147269%2FClasslikes%2F1259467601" anchor-label="MonthDayAsString" id="484147269%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#484147269%2FClasslikes%2F1259467601"><span>Month</span><wbr></wbr><span>Day</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="484147269%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#484147269%2FClasslikes%2F1259467601">MonthDayAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-month-day-serializer/index.html">MonthDaySerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/MonthDay.html">MonthDay</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1961984330%2FClasslikes%2F1259467601" anchor-label="MonthDaySerializer" id="-1961984330%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-month-day-serializer/index.html"><span>Month</span><wbr></wbr><span>Day</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1961984330%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-month-day-serializer/index.html">MonthDaySerializer</a> : <a href="-abstract-temporal-serializer/index.html">AbstractTemporalSerializer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/MonthDay.html">MonthDay</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Serialize <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/MonthDay.html">MonthDay</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> using <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html">DateTimeFormatter</a> of pattern &quot;--MM-dd&quot;.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1852179443%2FClasslikes%2F1259467601" anchor-label="OffsetDateTimeAsString" id="1852179443%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1852179443%2FClasslikes%2F1259467601"><span>Offset</span><wbr></wbr><span>Date</span><wbr></wbr><span>Time</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1852179443%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#1852179443%2FClasslikes%2F1259467601">OffsetDateTimeAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-offset-date-time-serializer/index.html">OffsetDateTimeSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/OffsetDateTime.html">OffsetDateTime</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1543057692%2FClasslikes%2F1259467601" anchor-label="OffsetDateTimeSerializer" id="-1543057692%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-offset-date-time-serializer/index.html"><span>Offset</span><wbr></wbr><span>Date</span><wbr></wbr><span>Time</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1543057692%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-offset-date-time-serializer/index.html">OffsetDateTimeSerializer</a> : <a href="-abstract-temporal-serializer/index.html">AbstractTemporalSerializer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/OffsetDateTime.html">OffsetDateTime</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Serialize <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/OffsetDateTime.html">OffsetDateTime</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> using the formatter <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME()">DateTimeFormatter.ISO_OFFSET_DATE_TIME</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-342204671%2FClasslikes%2F1259467601" anchor-label="OffsetTimeAsString" id="-342204671%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-342204671%2FClasslikes%2F1259467601"><span>Offset</span><wbr></wbr><span>Time</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-342204671%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#-342204671%2FClasslikes%2F1259467601">OffsetTimeAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-offset-time-serializer/index.html">OffsetTimeSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/OffsetTime.html">OffsetTime</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1517248910%2FClasslikes%2F1259467601" anchor-label="OffsetTimeSerializer" id="-1517248910%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-offset-time-serializer/index.html"><span>Offset</span><wbr></wbr><span>Time</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1517248910%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-offset-time-serializer/index.html">OffsetTimeSerializer</a> : <a href="-abstract-temporal-serializer/index.html">AbstractTemporalSerializer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/OffsetTime.html">OffsetTime</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Serialize <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/OffsetTime.html">OffsetTime</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> using the formatter <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html#ISO_OFFSET_TIME()">DateTimeFormatter.ISO_OFFSET_TIME</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-43515680%2FClasslikes%2F1259467601" anchor-label="PeriodAsString" id="-43515680%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-43515680%2FClasslikes%2F1259467601"><span>Period</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-43515680%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#-43515680%2FClasslikes%2F1259467601">PeriodAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-period-serializer/index.html">PeriodSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Period.html">Period</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2055029905%2FClasslikes%2F1259467601" anchor-label="PeriodSerializer" id="2055029905%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-period-serializer/index.html"><span>Period</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2055029905%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-period-serializer/index.html">PeriodSerializer</a> : <span data-unresolved-link="kotlinx.serialization/KSerializer///PointingToDeclaration/">KSerializer</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Period.html">Period</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Serialize <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Period.html">Period</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> using ISO-8601 format.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1207176868%2FClasslikes%2F1259467601" anchor-label="YearAsString" id="1207176868%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1207176868%2FClasslikes%2F1259467601"><span>Year</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1207176868%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#1207176868%2FClasslikes%2F1259467601">YearAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-year-serializer/index.html">YearSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Year.html">Year</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1879201320%2FClasslikes%2F1259467601" anchor-label="YearMonthAsString" id="-1879201320%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1879201320%2FClasslikes%2F1259467601"><span>Year</span><wbr></wbr><span>Month</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1879201320%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#-1879201320%2FClasslikes%2F1259467601">YearMonthAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-year-month-serializer/index.html">YearMonthSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/YearMonth.html">YearMonth</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1102278775%2FClasslikes%2F1259467601" anchor-label="YearMonthSerializer" id="-1102278775%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-year-month-serializer/index.html"><span>Year</span><wbr></wbr><span>Month</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1102278775%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-year-month-serializer/index.html">YearMonthSerializer</a> : <a href="-abstract-temporal-serializer/index.html">AbstractTemporalSerializer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/YearMonth.html">YearMonth</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Serialize <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/YearMonth.html">YearMonth</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> using <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html">DateTimeFormatter</a> of pattern &quot;uuuu-MM&quot;.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1379725653%2FClasslikes%2F1259467601" anchor-label="YearSerializer" id="1379725653%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-year-serializer/index.html"><span>Year</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1379725653%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-year-serializer/index.html">YearSerializer</a> : <a href="-abstract-temporal-serializer/index.html">AbstractTemporalSerializer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Year.html">Year</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Serialize <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Year.html">Year</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> using <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html">DateTimeFormatter</a> of pattern &quot;uuuu&quot;.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-873014360%2FClasslikes%2F1259467601" anchor-label="ZonedDateTimeAsString" id="-873014360%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-873014360%2FClasslikes%2F1259467601"><span>Zoned</span><wbr></wbr><span>Date</span><wbr></wbr><span>Time</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-873014360%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#-873014360%2FClasslikes%2F1259467601">ZonedDateTimeAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-zoned-date-time-serializer/index.html">ZonedDateTimeSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/ZonedDateTime.html">ZonedDateTime</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-524251815%2FClasslikes%2F1259467601" anchor-label="ZonedDateTimeSerializer" id="-524251815%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-zoned-date-time-serializer/index.html"><span>Zoned</span><wbr></wbr><span>Date</span><wbr></wbr><span>Time</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-524251815%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-zoned-date-time-serializer/index.html">ZonedDateTimeSerializer</a> : <a href="-abstract-temporal-serializer/index.html">AbstractTemporalSerializer</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/ZonedDateTime.html">ZonedDateTime</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Serialize <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/ZonedDateTime.html">ZonedDateTime</a> to <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> using the formatter <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html#ISO_ZONED_DATE_TIME()">DateTimeFormatter.ISO_ZONED_DATE_TIME</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1088627066%2FClasslikes%2F1259467601" anchor-label="ZoneIdAsString" id="1088627066%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1088627066%2FClasslikes%2F1259467601"><span>Zone</span><wbr></wbr><span>Id</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1088627066%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#1088627066%2FClasslikes%2F1259467601">ZoneIdAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-zone-id-serializer/index.html">ZoneIdSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/ZoneId.html">ZoneId</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-877484373%2FClasslikes%2F1259467601" anchor-label="ZoneIdSerializer" id="-877484373%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-zone-id-serializer/index.html"><span>Zone</span><wbr></wbr><span>Id</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-877484373%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-zone-id-serializer/index.html">ZoneIdSerializer</a> : <span data-unresolved-link="kotlinx.serialization/KSerializer///PointingToDeclaration/">KSerializer</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/ZoneId.html">ZoneId</a><span class="token operator">&gt; </span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1528360322%2FClasslikes%2F1259467601" anchor-label="ZoneOffsetAsString" id="1528360322%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1528360322%2FClasslikes%2F1259467601"><span>Zone</span><wbr></wbr><span>Offset</span><wbr></wbr><span>As</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1528360322%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#1528360322%2FClasslikes%2F1259467601">ZoneOffsetAsString</a><span class="token operator"> = </span><span><span class="token annotation builtin">@</span><span data-unresolved-link="kotlinx.serialization/Serializable///PointingToDeclaration/"><span class="token annotation builtin">Serializable</span></span><span class="token punctuation">(</span><span>with<span class="token operator"> = </span><a href="-zone-offset-serializer/index.html">ZoneOffsetSerializer::class</a></span><wbr></wbr><span class="token punctuation">)</span> </span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/ZoneOffset.html">ZoneOffset</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="799379635%2FClasslikes%2F1259467601" anchor-label="ZoneOffsetSerializer" id="799379635%2FClasslikes%2F1259467601" data-filterable-set=":kserializers-jvm:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kserializers-jvm:dokkaHtml/main" data-filterable-set=":kserializers-jvm:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-zone-offset-serializer/index.html"><span>Zone</span><wbr></wbr><span>Offset</span><wbr></wbr><span><span>Serializer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="799379635%2FClasslikes%2F1259467601"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kserializers-jvm:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-zone-offset-serializer/index.html">ZoneOffsetSerializer</a> : <span data-unresolved-link="kotlinx.serialization/KSerializer///PointingToDeclaration/">KSerializer</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/ZoneOffset.html">ZoneOffset</a><span class="token operator">&gt; </span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
