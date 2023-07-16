@@ -11,7 +11,9 @@ import kotlinx.serialization.encoding.Encoder
 import java.time.DateTimeException
 import java.time.Instant
 
-
+/**
+ * Serialize [Instant] to [Long] (Unix time). Data about milliseconds of this [Instant] is ignored.
+ */
 object InstantAsUnixTimeSerializer : KSerializer<Instant> {
     override val descriptor: SerialDescriptor = PrimitiveSerialDescriptor(this::class.qualifiedName!!, PrimitiveKind.LONG)
 

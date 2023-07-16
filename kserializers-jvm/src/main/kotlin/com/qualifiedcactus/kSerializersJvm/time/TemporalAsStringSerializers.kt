@@ -44,16 +44,54 @@ constructor(
     }
 }
 
-
+/**
+ * Serialize [Instant] to [String] using the formatter [DateTimeFormatter.ISO_INSTANT].
+ */
 object InstantSerializer : AbstractTemporalSerializer<Instant>(DateTimeFormatter.ISO_INSTANT, Instant::from)
+
+/**
+ * Serialize [LocalDate] to [String] using the formatter [DateTimeFormatter.ISO_LOCAL_DATE].
+ */
 object LocalDateSerializer : AbstractTemporalSerializer<LocalDate>(DateTimeFormatter.ISO_LOCAL_DATE, LocalDate::from)
+
+/**
+ * Serialize [LocalDateTime] to [String] using the formatter [DateTimeFormatter.ISO_LOCAL_DATE_TIME].
+ */
 object LocalDateTimeSerializer : AbstractTemporalSerializer<LocalDateTime>(DateTimeFormatter.ISO_LOCAL_DATE_TIME, LocalDateTime::from)
+
+/**
+ * Serialize [LocalTime] to [String] using the formatter [DateTimeFormatter.ISO_LOCAL_TIME].
+ */
 object LocalTimeSerializer : AbstractTemporalSerializer<LocalTime>(DateTimeFormatter.ISO_LOCAL_TIME, LocalTime::from)
+
+/**
+ * Serialize [MonthDay] to [String] using [DateTimeFormatter] of pattern "--MM-dd".
+ */
 object MonthDaySerializer : AbstractTemporalSerializer<MonthDay>(DateTimeFormatter.ofPattern("--MM-dd"), MonthDay::from)
+
+/**
+ * Serialize [OffsetDateTime] to [String] using the formatter [DateTimeFormatter.ISO_OFFSET_DATE_TIME].
+ */
 object OffsetDateTimeSerializer : AbstractTemporalSerializer<OffsetDateTime>(DateTimeFormatter.ISO_OFFSET_DATE_TIME, OffsetDateTime::from)
+
+/**
+ * Serialize [OffsetTime] to [String] using the formatter [DateTimeFormatter.ISO_OFFSET_TIME].
+ */
 object OffsetTimeSerializer : AbstractTemporalSerializer<OffsetTime>(DateTimeFormatter.ISO_OFFSET_TIME, OffsetTime::from)
+
+/**
+ * Serialize [Year] to [String] using [DateTimeFormatter] of pattern "uuuu".
+ */
 object YearSerializer : AbstractTemporalSerializer<Year>(DateTimeFormatter.ofPattern("uuuu"), Year::from)
+
+/**
+ * Serialize [YearMonth] to [String] using [DateTimeFormatter] of pattern "uuuu-MM".
+ */
 object YearMonthSerializer : AbstractTemporalSerializer<YearMonth>(DateTimeFormatter.ofPattern("uuuu-MM"), YearMonth::from)
+
+/**
+ * Serialize [ZonedDateTime] to [String] using the formatter [DateTimeFormatter.ISO_ZONED_DATE_TIME].
+ */
 object ZonedDateTimeSerializer : AbstractTemporalSerializer<ZonedDateTime>(DateTimeFormatter.ISO_ZONED_DATE_TIME, ZonedDateTime::from)
 
 

@@ -13,7 +13,8 @@ import java.time.Period
 import java.time.format.DateTimeParseException
 
 /**
- * This is a serializer for [java.time.Duration], not Kotlin [kotlin.time.Duration] (which already has a built-in serializer)
+ * This is a serializer for [java.time.Duration], not Kotlin [kotlin.time.Duration] (which already has a built-in serializer).
+ * Serialize [Duration] to [String] using ISO-8601 format.
  */
 object DurationSerializer : KSerializer<Duration> {
 
@@ -34,6 +35,9 @@ object DurationSerializer : KSerializer<Duration> {
 }
 typealias DurationAsString = @Serializable(DurationSerializer::class) Duration
 
+/**
+ * Serialize [Period] to [String] using ISO-8601 format.
+ */
 object PeriodSerializer : KSerializer<Period> {
     override val descriptor: SerialDescriptor =
         PrimitiveSerialDescriptor(this::class.qualifiedName!!, PrimitiveKind.STRING)
