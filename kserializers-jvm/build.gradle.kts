@@ -14,7 +14,7 @@ plugins {
 }
 
 group = "com.qualifiedcactus"
-version = "0.0.1"
+version = "0.0.2"
 
 repositories {
     // Use Maven Central for resolving dependencies.
@@ -86,11 +86,11 @@ publishing {
                 name.set("${project.group}:${project.name}")
                 packaging = "jar"
                 description.set("A light-weight Java dependency injection library written in Kotlin")
-                url.set("https://github.com/qualified-cactus/cactus-di")
+                url.set("https://github.com/qualified-cactus/kserializers-jvm")
 
                 scm {
-                    connection.set("scm:git:git://github.com/qualified-cactus/cactus-di.git")
-                    url.set("https://github.com/qualified-cactus/cactus-di")
+                    connection.set("scm:git:git://github.com/qualified-cactus/kserializers-jvm.git")
+                    url.set("https://github.com/qualified-cactus/kserializers-jvm")
                 }
 
                 licenses {
